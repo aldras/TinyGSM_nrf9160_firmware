@@ -1,0 +1,13 @@
+# Target labels
+ mcuboot_subimage
+# Source files and their labels
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/CMakeFiles/mcuboot_subimage
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/CMakeFiles/mcuboot_subimage.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/CMakeFiles/mcuboot_subimage-complete.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-install.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-mkdir.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-download.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-update.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-patch.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-configure.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-build.rule

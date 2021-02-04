@@ -1,0 +1,135 @@
+[2021-Jan-28 17:35:50] [ info] --------------------------------------------------------------------------------
+[2021-Jan-28 17:35:50] [ info] /usr/local/bin/nrfjprog -f nrf91 --reset --log 
+[2021-Jan-28 17:35:50] [ info] nrfjprog version 10.12.1 
+[2021-Jan-28 17:35:50] [ info] --------------------------------------------------------------------------------
+[2021-Jan-28 17:35:50] [debug] [ nRF0x0] - open_dll
+[2021-Jan-28 17:35:50] [ info] [ nRF0x0] - Load library at /Applications/Nordic Semiconductor/nrfjprog/libjlinkarm_nrf91_nrfjprogdll.dylib.
+[2021-Jan-28 17:35:50] [ info] [ nRF0x0] - Library loaded, loading member functions.
+[2021-Jan-28 17:35:50] [ info] [ nRF0x0] - Member functions succesfully loaded.
+[2021-Jan-28 17:35:50] [ info] [Backend] - Logger callback at 0x10ddc2300 registered in Segger backend logger.
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] Logger callback at 0x10ddc2300 registered in JLink logger.
+[2021-Jan-28 17:35:50] [debug] [nRF910x0] - open
+[2021-Jan-28 17:35:50] [debug] [Backend] - open_dll
+[2021-Jan-28 17:35:50] [ info] [Backend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2021-Jan-28 17:35:50] [ info] [Backend] - Load library at /Applications/SEGGER/JLink/libjlinkarm.dylib.
+[2021-Jan-28 17:35:50] [ info] [Backend] - Library loaded, loading member functions.
+[2021-Jan-28 17:35:50] [ info] [Backend] - Member functions succesfully loaded.
+[2021-Jan-28 17:35:50] [debug] [Backend] - dll_version
+[2021-Jan-28 17:35:50] [ info] [Backend] - Segger dll version 6.88.a loaded.
+[2021-Jan-28 17:35:50] [debug] [ nRF0x0] - enum_emu_snr
+[2021-Jan-28 17:35:50] [debug] [nRF910x0] - enum_emu_snr
+[2021-Jan-28 17:35:50] [debug] [Backend] - is_connected_to_emu
+[2021-Jan-28 17:35:50] [debug] [Backend] - enum_emu_snr
+[2021-Jan-28 17:35:50] [debug] [Backend] - ---just_enum_emu_snr
+[2021-Jan-28 17:35:50] [debug] [Backend] - ---just_get_num_emus
+[2021-Jan-28 17:35:50] [debug] [Backend] - is_connected_to_emu
+[2021-Jan-28 17:35:50] [debug] [ nRF0x0] - connect_to_emu_with_snr
+[2021-Jan-28 17:35:50] [debug] [nRF910x0] - connect_to_emu_with_snr
+[2021-Jan-28 17:35:50] [debug] [Backend] - is_connected_to_emu
+[2021-Jan-28 17:35:50] [debug] [Backend] - connect_to_emu_with_snr
+[2021-Jan-28 17:35:50] [debug] [Backend] - is_connected_to_emu
+[2021-Jan-28 17:35:50] [debug] [Backend] - ---just_enum_emu_snr
+[2021-Jan-28 17:35:50] [debug] [Backend] - ---just_get_num_emus
+[2021-Jan-28 17:35:50] [debug] [Backend] - ---just_connect_to_emu_with_snr
+[2021-Jan-28 17:35:50] [debug] [Backend] - ---just_connect_to_emu_without_snr
+[2021-Jan-28 17:35:50] [ info] [Backend] - Segger logging enabled.
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] Firmware: J-Link OB-K22-NordicSemi compiled Jan 21 2020 17:33:01
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] Decompressing FW timestamp took 135 us
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] Hardware: V1.00
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] S/N: 960069016
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] OEM: SEGGER
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] TELNET listener socket opened on port 19021
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] WEBSRV Starting webserver
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] WEBSRV Webserver running on local port 19080
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 27.878ms returns "O.K."  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_GetHWStatus(...)  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.223ms returns 0  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.009ms returns 0x01  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("DisableFlashDL", ...).   
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.005ms returns 0x00  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.004ms returns 0x00  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetHookUnsecureDialog  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetHookUnsecureDialog(...)
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.015ms returns 0  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.589ms returns 0x00  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetSpeed(2000)  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.099ms  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_GetSN()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.005ms returns 960069016  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [debug] [Backend] - ---just_load_core_data
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("CORESIGHT_SetIndexAHBAPToUse = 0", ...).   
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 0.005ms returns 0x00  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("device = Cortex-M33", ...).   
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] XML file found at: /Applications/SEGGER/JLink_V688a/JLinkDevices.xml 
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] /Applications/SEGGER/JLink_V688a/JLinkDevices.xml evaluated successfully. 
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] Device "CORTEX-M33" selected.
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] Device "CORTEX-M33" selected.
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] - 17.735ms returns 0x00  
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:50] [debug] [Backend] - read_debug_port_idr
+[2021-Jan-28 17:35:50] [debug] [Backend] - read_debug_port_register
+[2021-Jan-28 17:35:50] [debug] [Backend] - ---just_read_debug_port_register
+[2021-Jan-28 17:35:50] [debug] [Backend] - coresight_configure
+[2021-Jan-28 17:35:50] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_Configure()  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 100.575ms returns 0  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:51] [debug] [Backend] - ---just_select_debug_port_register
+[2021-Jan-28 17:35:51] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 0.683ms returns -1  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:51] [ info] [Backend] - JLinkARM.dll reported "-1", an unknown error.
+[2021-Jan-28 17:35:51] [debug] [Backend] - ---just_abort_debug_action
+[2021-Jan-28 17:35:51] [ info] [Backend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 0.755ms returns -1  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:51] [ info] [Backend] - JLinkARM.dll reported "-1", an unknown error.
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 0.043ms  
+[2021-Jan-28 17:35:51] [debug] [ nRF0x0] - close_dll
+[2021-Jan-28 17:35:51] [debug] [nRF910x0] - close
+[2021-Jan-28 17:35:51] [debug] [Backend] - is_connected_to_emu
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 0.010ms returns 0x01  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2021-Jan-28 17:35:51] [debug] [Backend] - close
+[2021-Jan-28 17:35:51] [debug] [Backend] - disconnect_from_emu
+[2021-Jan-28 17:35:51] [debug] [Backend] - ---just_disconnect_from_emu
+[2021-Jan-28 17:35:51] [debug] [Backend] - is_connected_to_device
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsConnected()  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 0.010ms returns FALSE  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:51] [debug] [Backend] - ---just_is_debug_region_powered
+[2021-Jan-28 17:35:51] [debug] [Backend] - ---just_read_debug_port_register
+[2021-Jan-28 17:35:51] [debug] [Backend] - ---just_select_debug_port_register
+[2021-Jan-28 17:35:51] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 0.828ms returns -1  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:51] [ info] [Backend] - JLinkARM.dll reported "-1", an unknown error.
+[2021-Jan-28 17:35:51] [debug] [Backend] - ---just_abort_debug_action
+[2021-Jan-28 17:35:51] [ info] [Backend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 0.793ms returns -1  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2021-Jan-28 17:35:51] [ info] [Backend] - JLinkARM.dll reported "-1", an unknown error.
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] - 0.043ms  
+[2021-Jan-28 17:35:51] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Close()  
+[2021-Jan-28 17:35:51] [debug] [Backend] - Segger Backend closed.
+[2021-Jan-28 17:35:51] [debug] [nRF910x0] - nRF family DLL closed

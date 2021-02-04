@@ -1,0 +1,13 @@
+# Target labels
+ spm_subimage
+# Source files and their labels
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/CMakeFiles/spm_subimage
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/CMakeFiles/spm_subimage.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/CMakeFiles/spm_subimage-complete.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-install.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-mkdir.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-download.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-update.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-patch.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-configure.rule
+/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_circuitdojo_feather_nrf9160_115200/build/modules/nrf/samples/spm_subimage-prefix/src/spm_subimage-stamp/spm_subimage-build.rule

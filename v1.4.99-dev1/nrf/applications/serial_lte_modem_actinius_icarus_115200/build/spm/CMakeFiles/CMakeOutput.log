@@ -1,0 +1,43 @@
+The target system is: Generic - 2.4.99 - arm
+The host system is: Darwin - 20.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/nordic/ncs/v1.4.99-dev1/toolchain/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_actinius_icarus_115200/build/spm/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/nordic/ncs/v1.4.99-dev1/toolchain/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_actinius_icarus_115200/build/spm/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___opt_nordic_ncs_v1_4_99_dev1_toolchain_bin____lib_gcc_arm_none_eabi_9_2_1_include___isystem___opt_nordic_ncs_v1_4_99_dev1_toolchain_bin____lib_gcc_arm_none_eabi_9_2_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___out_implib__opt_nordic_ncs_v1_4_99_dev1_nrf_applications_serial_lte_modem_actinius_icarus_115200_build_spm_libspmsecureentries_a succeeded with the following output:
+Change Dir: /opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_actinius_icarus_115200/build/spm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/nordic/ncs/v1.4.1/toolchain/bin/ninja" "cmTC_522d4"
+[1/2] Building C object CMakeFiles/cmTC_522d4.dir/src.c.obj
+[2/2] Linking C executable cmTC_522d4
+
+Source file was:
+int main(void) { return 0; }

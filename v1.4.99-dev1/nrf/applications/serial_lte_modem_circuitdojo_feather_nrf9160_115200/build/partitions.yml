@@ -1,0 +1,110 @@
+EMPTY_0:
+  address: 0xc000
+  end_address: 0x10000
+  placement:
+    before:
+    - mcuboot_pad
+  region: flash_primary
+  size: 0x4000
+app:
+  address: 0x1c200
+  end_address: 0x88000
+  region: flash_primary
+  size: 0x6be00
+bsdlib_sram:
+  address: 0x20010000
+  end_address: 0x20020000
+  placement:
+    after:
+    - spm_sram
+    - start
+  region: sram_primary
+  size: 0x10000
+mcuboot:
+  address: 0x0
+  end_address: 0xc000
+  placement:
+    before:
+    - mcuboot_primary
+  region: flash_primary
+  size: 0xc000
+mcuboot_pad:
+  address: 0x10000
+  end_address: 0x10200
+  placement:
+    align:
+      start: 0x8000
+    before:
+    - mcuboot_primary_app
+  region: flash_primary
+  size: 0x200
+mcuboot_primary:
+  address: 0x10000
+  end_address: 0x88000
+  orig_span: &id001
+  - app
+  - spm
+  - mcuboot_pad
+  region: flash_primary
+  sharers: 0x1
+  size: 0x78000
+  span: *id001
+mcuboot_primary_app:
+  address: 0x10200
+  end_address: 0x88000
+  orig_span: &id002
+  - app
+  - spm
+  region: flash_primary
+  size: 0x77e00
+  span: *id002
+mcuboot_secondary:
+  address: 0x88000
+  end_address: 0x100000
+  placement:
+    after:
+    - mcuboot_primary
+    align:
+      start: 0x8000
+  region: flash_primary
+  share_size:
+  - mcuboot_primary
+  size: 0x78000
+otp:
+  address: 0xff8108
+  end_address: 0xff83fc
+  region: otp
+  size: 0x2f4
+spm:
+  address: 0x10200
+  end_address: 0x1c200
+  inside:
+  - mcuboot_primary_app
+  placement:
+    before:
+    - app
+  region: flash_primary
+  size: 0xc000
+spm_sram:
+  address: 0x20000000
+  end_address: 0x20010000
+  inside:
+  - sram_secure
+  placement:
+    after:
+    - start
+  region: sram_primary
+  size: 0x10000
+sram_primary:
+  address: 0x20020000
+  end_address: 0x20040000
+  region: sram_primary
+  size: 0x20000
+sram_secure:
+  address: 0x20000000
+  end_address: 0x20010000
+  orig_span: &id003
+  - spm_sram
+  region: sram_primary
+  size: 0x10000
+  span: *id003

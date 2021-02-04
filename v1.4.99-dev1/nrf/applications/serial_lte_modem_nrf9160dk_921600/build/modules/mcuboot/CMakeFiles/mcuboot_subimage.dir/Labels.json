@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/CMakeFiles/mcuboot_subimage"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/CMakeFiles/mcuboot_subimage.rule"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/CMakeFiles/mcuboot_subimage-complete.rule"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-install.rule"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-mkdir.rule"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-download.rule"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-update.rule"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-patch.rule"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-configure.rule"
+		},
+		{
+			"file" : "/opt/nordic/ncs/v1.4.99-dev1/nrf/applications/serial_lte_modem_nrf9160dk_921600/build/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mcuboot_subimage"
+		],
+		"name" : "mcuboot_subimage"
+	}
+}

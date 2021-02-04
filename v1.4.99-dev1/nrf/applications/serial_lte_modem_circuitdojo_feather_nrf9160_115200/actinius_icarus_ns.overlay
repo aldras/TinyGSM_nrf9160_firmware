@@ -1,0 +1,24 @@
+&uart1 {
+	status = "okay";
+
+	current-speed = <115200>;
+	tx-pin = <10>;
+	rx-pin = <11>;
+};
+
+&uart2 {
+	compatible = "nordic,nrf-uarte";
+	current-speed = <921600>;
+	// for CTS  RTS support
+	/*
+	tx-pin = <4>;
+	rx-pin = <2>;
+	rts-pin = <3>;
+	cts-pin = <0>;
+	hw-flow-control;
+	*/
+
+	// without CTS RTS support
+	tx-pin = <3>;
+	rx-pin = <1>;	
+};

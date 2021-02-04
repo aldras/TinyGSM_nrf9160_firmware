@@ -1,0 +1,16 @@
+{
+    "format-version": 0,
+    "time": 1612234879,
+    "files": [
+        {
+            "size": 202280,
+            "file": "app_update.bin",
+            "modtime": 1612234879,
+            "load_address": 98816,
+            "version_MCUBOOT": "0.0.0+0",
+            "type": "application",
+            "board": "actinius_icarus",
+            "soc": "nRF9160_SICA"
+        }
+    ]
+}
